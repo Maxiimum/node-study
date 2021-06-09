@@ -1,4 +1,3 @@
-const { timeEnd } = require('node:console');
 const { Worker, isMainThread, parentPort, workerData} = require('worker_threads');
 
 const min =2;
